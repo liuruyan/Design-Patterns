@@ -1,8 +1,9 @@
-package ´óÑ§Éú¹¤³§;
+package å¤§å­¦ç”Ÿå·¥å‚;
 
-import À×·æ¹¤³§.IFactory;
-import À×·æÀà.LeiFeng;
-import À×·æÀà.Volunteer;
+import é›·é”‹å·¥å‚.IFactory;
+import é›·é”‹ç±».LeiFeng;
+import é›·é”‹ç±».Volunteer;
+
 
 public class VolunteerFactory implements IFactory {
 

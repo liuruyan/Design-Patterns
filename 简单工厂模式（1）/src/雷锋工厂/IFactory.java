@@ -1,6 +1,7 @@
-package À×·æ¹¤³§;
+package é›·é”‹å·¥åŽ‚;
 
-import À×·æÀà.LeiFeng;
+import é›·é”‹ç±».LeiFeng;
+
 
 public interface IFactory {
 	LeiFeng CreateLeiFeng();

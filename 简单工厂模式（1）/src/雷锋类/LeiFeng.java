@@ -1,18 +1,18 @@
-package À×·æÀà;
+package é›·é”‹ç±»;
 
 public class LeiFeng {
 
 	public void Sweep() {
-		System.out.println("É¨µØ");
+		System.out.println("æ‰«åœ°");
 		
 	}
 	public void Wash() {
 		
-		System.out.println("Ï´ÒÂ");
+		System.out.println("æ´—ç¢—");
 	}
 	
 	public void BuyRice() {
-		System.out.println("ÂòÃ×");
+		System.out.println("ä¹°ç±³");
 		
 	}
 	
