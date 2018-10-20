@@ -11,7 +11,7 @@ public class Main {
 		
 		IFactory factory =new UndergraduateFactory();
 		LeiFeng student =factory.CreateLeiFeng();
-		
+		System.out.println("asdasd");
 		student.BuyRice();
 		student.Sweep();
 		student.Wash();
