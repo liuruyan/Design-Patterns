@@ -12,9 +12,10 @@ public class StockObserver extends Observer {
 		// TODO Auto-generated constructor stub
 	}
 
+
 	@Override
 	public void Update() {
-		// TODO Auto-generated method stub
+		System.out.println(sub.p.getSubjectState()+','+name+"关闭股票行情，继续工作!!");
 		
 	}
 	

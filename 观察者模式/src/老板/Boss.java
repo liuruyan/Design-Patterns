@@ -28,14 +28,14 @@ public class Boss implements Subject{
 	}
 
 	public String getSubjectState() {
-		return SubjectState;
+		return Subject.p.getSubjectState();
 	}
 
 	public void setSubjectState(String subjectState) {
-		SubjectState = subjectState;
+		Subject.p.setSubjectState(subjectState);
 	}
 
-	private String SubjectState;
+	
 	
 	
 	

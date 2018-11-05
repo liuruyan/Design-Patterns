@@ -3,8 +3,9 @@ package 前台秘书类;
 import java.util.ArrayList;
 
 import 观察者.Observer;
+import 通知者.Subject;
 
-public class Secretary {
+public class Secretary  implements Subject{
 
 	
 	//同事列表
@@ -40,11 +41,11 @@ public class Secretary {
 	public String secretaryAction ;
 
 	public String getSecretaryAction() {
-		return secretaryAction;
+		return Subject.p.getSubjectState();
 	}
 
 	public void setSecretaryAction(String secretaryAction) {
-		this.secretaryAction = secretaryAction;
+		Subject.p.setSubjectState(secretaryAction);
 	}
 	
 	
