@@ -14,6 +14,7 @@ public class Main {
 		LeiFeng student =factory.CreateLeiFeng();
 		System.out.println("asdasd");
 		student.BuyRice();
+	
 		student.Sweep();
 		student.Wash();
 		
