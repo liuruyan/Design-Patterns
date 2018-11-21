@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import 观察者.Observer;
 import 通知者.Subject;
 
-public class Secretary  implements Subject{
+public class Secretary  /*implements*/extends Subject{
 
 	
 	//同事列表
@@ -41,11 +41,11 @@ public class Secretary  implements Subject{
 	public String secretaryAction ;
 
 	public String getSecretaryAction() {
-		return Subject.p.getSubjectState();
+		return p.getSubjectState();
 	}
 
 	public void setSecretaryAction(String secretaryAction) {
-		Subject.p.setSubjectState(secretaryAction);
+		p.setSubjectState(secretaryAction);
 	}
 	
 	

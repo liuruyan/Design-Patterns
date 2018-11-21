@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import 观察者.Observer;
 import 通知者.Subject;
 
-public class Boss implements Subject{
+public class Boss /*implements*/extends Subject{
 
 	@Override
 	public void Attach(Observer observer) {
@@ -28,11 +28,11 @@ public class Boss implements Subject{
 	}
 
 	public String getSubjectState() {
-		return Subject.p.getSubjectState();
+		return p.getSubjectState();
 	}
 
 	public void setSubjectState(String subjectState) {
-		Subject.p.setSubjectState(subjectState);
+		p.setSubjectState(subjectState);
 	}
 
 	
