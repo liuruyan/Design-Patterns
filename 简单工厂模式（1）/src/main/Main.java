@@ -1,5 +1,10 @@
 package main;
 
+import java.sql.Time;
+import java.time.LocalTime;
+import java.util.Date;
+import java.util.Random;
+
 import 大学生工厂.UndergraduateFactory;
 import 雷锋工厂.IFactory;
 import 雷锋类.LeiFeng;
@@ -7,6 +12,7 @@ import 雷锋类.LeiFeng;
 
 public class Main {
 
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -17,6 +23,8 @@ public class Main {
 	
 		student.Sweep();
 		student.Wash();
+
+		
 		
 	}
 
